@@ -37,4 +37,10 @@ install(
   DESTINATION share/${PROJECT_NAME}
 )
 
+install(PROGRAMS
+  src/image_merger_node.py
+  DESTINATION lib/my_bot
+)
+
+
 ament_package()
