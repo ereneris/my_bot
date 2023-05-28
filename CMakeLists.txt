@@ -39,7 +39,12 @@ install(
 
 install(PROGRAMS
   src/image_merger_node.py
-  DESTINATION lib/my_bot
+  DESTINATION share/my_bot
+)
+
+install(PROGRAMS
+  src/turn.py
+  DESTINATION share/my_bot
 )
 
 

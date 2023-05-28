@@ -94,10 +94,9 @@ class ImageMergerNode(Node):
         self.combined_publisher.publish(combined_msg)
 
         # Birleştirilmiş resmi gösterin
-        cv2.imshow("Combined Image", combined_image)
 
         cv2.imshow("Image 1", cv_image1)
-        cv2.imshow("Image 2", cv_image2)
+
         cv2.waitKey(5)
 
 def main(args=None):

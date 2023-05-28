@@ -7,10 +7,10 @@
     <!--<xacro:include filename="lidar.xacro" />-->
     <xacro:include filename="camera1.xacro" />
     <xacro:include filename="camera2.xacro" />
-    <xacro:include filename="camera3.xacro" />
+    <!--<xacro:include filename="camera3.xacro" />
     <xacro:include filename="camera4.xacro" />
     <xacro:include filename="camera5.xacro" />
-    <xacro:include filename="camera6.xacro" />
+    <xacro:include filename="camera6.xacro" />-->
     <!--<xacro:include filename="depth_camera.xacro" />-->
 
 </robot>
